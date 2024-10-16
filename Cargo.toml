@@ -71,7 +71,8 @@ iced_fonts = { path = "../iced_fonts" }
 [dependencies.iced]
 #git = "https://github.com/iced-rs/iced.git"
 #rev = "b474a2b7a763dcde6a377cb409001a7b5285ee8d"
-path = "../iced"
+git = "https://github.com/videni/iced"
+branch = "master"
 default-features = false
 features = ["advanced"]
 
@@ -85,7 +86,8 @@ rand = "0.8.5"            # For wrap example
 [dev-dependencies.iced]
 #git = "https://github.com/iced-rs/iced.git"
 #rev = "b474a2b7a763dcde6a377cb409001a7b5285ee8d"
-path = "../iced"
+git = "https://github.com/videni/iced"
+branch = "master"
 #default-features = false
 features = ["advanced", "wgpu"]
 
