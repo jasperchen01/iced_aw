@@ -66,12 +66,12 @@ itertools = { version = "0.13.0", optional = true }
 num-format = { version = "0.4.4", optional = true }
 num-traits = { version = "0.2.19", optional = true }
 time = { version = "0.3.36", features = ["local-offset"], optional = true }
-iced_fonts = "0.1.1"
+iced_fonts = { path = "../iced_fonts" }
 
 [dependencies.iced]
 #git = "https://github.com/iced-rs/iced.git"
 #rev = "b474a2b7a763dcde6a377cb409001a7b5285ee8d"
-version = "0.13.1"
+path = "../iced"
 default-features = false
 features = ["advanced"]
 
@@ -85,7 +85,7 @@ rand = "0.8.5"            # For wrap example
 [dev-dependencies.iced]
 #git = "https://github.com/iced-rs/iced.git"
 #rev = "b474a2b7a763dcde6a377cb409001a7b5285ee8d"
-version = "0.13.0"
+path = "../iced"
 #default-features = false
 features = ["advanced", "wgpu"]
 
