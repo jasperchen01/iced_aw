@@ -1506,6 +1506,7 @@ dependencies = [
 [[package]]
 name = "iced_fonts"
 version = "0.1.1"
+source = "git+https://github.com/jasperchen01/iced_fonts.git?branch=master#7801dfcc133a04e4a6b52ebc2ab0ad1ae7816d08"
 dependencies = [
  "iced_core",
 ]
